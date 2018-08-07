@@ -1,0 +1,18 @@
+{
+    "work_dir": "/builds/scriptworker/aki/work",
+    "artifact_dir": "/builds/scriptworker/aki/artifacts",
+
+    "my_ip": "10.134.30.207",
+    "signing_server_config": "/builds/scriptworker/aki/passwords.json",
+    "ssl_cert": "/builds/scriptworker/lib/python3.6/site-packages/signingscript/data/host.cert",
+    "schema_file": "/builds/scriptworker/lib/python3.6/site-packages/signingscript/data/signing_task_schema.json",
+    "taskcluster_scope_prefix": "project:releng:signing:",
+
+    "signtool": "/builds/scriptworker/bin/signtool",
+    "token_duration_seconds": 7200,
+    "verbose": true,
+    "dmg": "/builds/scriptworker/dmg/dmg",
+    "hfsplus": "/builds/scriptworker/dmg/hfsplus",
+    "zipalign": "/tools/android-sdk/build-tools/23.0.3/zipalign",
+    "gpg_pubkey": "/builds/scriptworker/KEY"
+}

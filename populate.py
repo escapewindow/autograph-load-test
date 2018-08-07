@@ -79,4 +79,5 @@ if __name__ == '__main__':
         copyfile(source_task_json, target_task_json)
         copyfile(source_mar, target_mar)
         copyfile(source_script, target_script)
+        os.chmod(target_script, 0755)
         create_config(localconfig, source_config)

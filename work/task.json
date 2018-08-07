@@ -1,0 +1,80 @@
+{
+  "provisionerId": "scriptworker-prov-v1",
+  "workerType": "signing-linux-dev",
+  "schedulerId": "gecko-level-1",
+  "taskGroupId": "XzdCOc5JS0Osq5mfih-aNA",
+  "dependencies": [
+    "Tkwwl_93QE-Zwug0hcnauA",
+    "c2nW3OSmSqKLZj8GLBJ93g",
+    "eiQZF2TcT2q8_ILvb2d_tQ"
+  ],
+  "requires": "all-completed",
+  "routes": [
+    "index.gecko.v2.try.nightly.latest.firefox.win32-nightly-repackage-signing",
+    "index.gecko.v2.try.nightly.2018.07.25.revision.1f37fc97a664849cb32e569e7104ea54e601d8f7.firefox.win32-nightly-repackage-signing",
+    "index.gecko.v2.try.nightly.2018.07.25.latest.firefox.win32-nightly-repackage-signing",
+    "index.gecko.v2.try.nightly.revision.1f37fc97a664849cb32e569e7104ea54e601d8f7.firefox.win32-nightly-repackage-signing",
+    "index.gecko.v2.try.revision.1f37fc97a664849cb32e569e7104ea54e601d8f7.firefox-l10n.win32-nightly-repackage-signing.en-US",
+    "index.gecko.v2.try.pushdate.2018.07.25.20180725010507.firefox-l10n.win32-nightly-repackage-signing.en-US",
+    "index.gecko.v2.try.pushlog-id.286634.firefox-l10n.win32-nightly-repackage-signing.en-US",
+    "index.gecko.v2.try.latest.firefox-l10n.win32-nightly-repackage-signing.en-US",
+    "tc-treeherder.v2.try.1f37fc97a664849cb32e569e7104ea54e601d8f7.286634"
+  ],
+  "priority": "very-low",
+  "retries": 5,
+  "created": "2018-07-25T01:06:34.736Z",
+  "deadline": "2018-07-26T01:06:34.736Z",
+  "expires": "2018-08-22T01:06:34.736Z",
+  "scopes": [
+    "project:releng:signing:cert:dep-signing",
+    "project:releng:signing:format:autograph_mar384",
+    "project:releng:signing:format:sha2signcode",
+    "project:releng:signing:format:sha2signcodestub"
+  ],
+  "payload": {
+    "maxRunTime": 3600,
+    "upstreamArtifacts": [
+      {
+        "paths": [
+          "public/build/target.complete.mar"
+        ],
+        "formats": [
+          "autograph_mar384"
+        ],
+        "taskId": "eiQZF2TcT2q8_ILvb2d_tQ",
+        "taskType": "repackage"
+      }
+    ]
+  },
+  "metadata": {
+    "owner": "asasaki@mozilla.com",
+    "source": "https://hg.mozilla.org/try/file/1f37fc97a664849cb32e569e7104ea54e601d8f7/taskcluster/ci/repackage-signing",
+    "description": "Signing of repackaged artifacts for locale 'en-US' for build 'win32-nightly/opt' ([Treeherder push](https://treeherder.mozilla.org/#/jobs?repo=try&revision=1f37fc97a664849cb32e569e7104ea54e601d8f7))",
+    "name": "repackage-signing-win32-nightly/opt"
+  },
+  "tags": {
+    "createdForUser": "asasaki@mozilla.com",
+    "kind": "repackage-signing",
+    "label": "repackage-signing-win32-nightly/opt"
+  },
+  "extra": {
+    "index": {
+      "rank": 1532480707
+    },
+    "treeherder": {
+      "jobKind": "build",
+      "groupSymbol": "rs",
+      "collection": {
+        "opt": true
+      },
+      "machine": {
+        "platform": "windows2012-32"
+      },
+      "groupName": "Repackage signing",
+      "tier": 1,
+      "symbol": "N"
+    },
+    "treeherder-platform": "windows2012-32/opt",
+    "parent": "XzdCOc5JS0Osq5mfih-aNA"
+  }
+}
